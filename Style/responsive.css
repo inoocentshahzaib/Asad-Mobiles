@@ -1,0 +1,189 @@
+@media (max-width: 1000px) {
+    .meet-B2B {
+        width: 93vw;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .about-image img {
+        width: 100%;
+    }
+
+    /* apk file  */
+    .container-apk {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        position: static;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    .nav-content {
+        top: 80px;
+        gap: 1rem;
+        width: 100%;
+        display: none;
+        padding: 1rem 0;
+        position: absolute;
+        text-align: center;
+        flex-direction: column;
+        background-color: #262c31;
+        transition: right 0.4s ease;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .nav-content.show {
+        display: block;
+        right: 0;
+    }
+
+    .dropdown {
+        width: 100%;
+    }
+
+    .nav-content a,
+    .dropbtn {
+        display: block;
+        padding: 0.8rem 1rem;
+    }
+
+    .dropdown-content {
+        position: static;
+        display: none;
+        margin-top: 0;
+        width: 100%;
+        box-shadow: none;
+        border-radius: 0;
+        background-color: #262c31;
+    }
+
+    .dropdown-content.show {
+        display: block;
+    }
+
+    .col-drop {
+        border: none;
+    }
+
+    #myDropdown a {
+        padding-left: 115px;
+        text-align: center;
+        color: rgb(245, 245, 245);
+    }
+
+    section {
+        margin-top: unset;
+    }
+
+    .container1 {
+        height: 500px;
+    }
+
+    .content-container h1 {
+        font-size: 50px;
+        width: 80%;
+    }
+
+    .content-container p {
+        width: 80%;
+    }
+
+    .meet-item {
+        padding-right: 10px;
+    }
+
+    form {
+        min-width: 425px;
+    }
+
+    form button {
+        font-size: 1rem;
+    }
+
+    .footer-address {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* iphone firmware */
+    .container-ip-1 {
+        margin-top: 50px;
+    }
+
+    .container-ip-2 {
+        padding-left: 10px;
+    }
+
+    .container-ip-2 h2 {
+        font-size: 1.75rem;
+    }
+
+    .container-ip-2 p {
+        font-size: 0.8rem;
+    }
+
+    .container-ip-2 a {
+        font-size: 0.8rem;
+        padding-left: 2px;
+    }
+
+    /* oppo firmware */
+    .container-oppo-1 {
+        margin-top: 50px;
+    }
+
+    .oppo-image {
+        width: 70%;
+    }
+
+    .apk-container {
+        margin-top: 50px;
+    }
+
+    .container-apk {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 450px) {
+    .logo a {
+        font-size: 1.9rem;
+    }
+
+    .nav-content {
+        right: -146%;
+    }
+
+    .content-container h1 {
+        font-size: 50px;
+        width: 100%;
+    }
+
+    .content-container p {
+        width: 100%;
+    }
+
+    form {
+        min-width: 325px;
+    }
+
+    form button {
+        font-size: 0.9rem;
+    }
+
+    /* oppo firmware */
+    .oppo-image {
+        width: 100%;
+    }
+
+    /* Apk file  */
+    .container-apk {
+        grid-template-columns: 1fr;
+    }
+}
